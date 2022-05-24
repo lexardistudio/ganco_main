@@ -1,12 +1,11 @@
 {
-  "name": "themefisher-boilerplate-free",
+  "name": "Lexardi Studio for Ganco Trading",
   "version": "2.2.3",
-  "description": "Gulp environment for running HTML themes by themefisher",
+  "description": "",
   "keywords": [
-    "gulp",
     "frontend"
   ],
-  "author": "Themefisher",
+  "author": "Lexardi Studio",
   "license": "MIT",
   "dependencies": {
     "browser-sync": "^2.27.5",
