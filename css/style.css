@@ -153,6 +153,12 @@ a:focus {
   text-decoration: none;
 }
 
+.container a {
+  color: #585858;
+  text-decoration: none;
+}
+
+
 a,
 button,
 select {
