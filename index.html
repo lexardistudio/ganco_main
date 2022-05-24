@@ -31,7 +31,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <!-- ** Plugins Needed for the Project ** -->
   <!-- bulma -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
   <link rel="stylesheet" href="node_modules/bulma-extensions/bulma-divider/dist/css/bulma-divider.min.css">
   <!-- slick slider -->
   <link rel="stylesheet" href="plugins/slick/slick.css">
@@ -104,7 +104,7 @@
   </section>
   <!-- /about -->
   <!-- productos -->
-  <section class="hero" id="productos">
+  <section class="hero is-fullheight has-background-success" id="productos">
     <div class="hero-body">
       <div class="container">
         <div>
@@ -179,11 +179,10 @@
         </div>
       </div>
     </div>
-    </div>
   </section>
   <!-- /productos -->
   <!-- servicios -->
-  <section class="hero" id="servicios">
+  <section class="hero is-fullheight is-danger" id="servicios">
     <div class="hero-body">
       <div class="container">
         <div>
@@ -224,17 +223,7 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- /servicios -->
-  <!-- cliente logo slider -->
-  <section class="section has-background-light">
-    <div class="hero-body">
-      <div class="container">
-        <div>
-          <h4 class="section-title has-text-grey has-text-left">Clientes</h4>
-        </div>
+        <div class="is-divider"></div>
         <div class="columns is-vcentered has-text-centered">
           <div class="column">
             <img src="images/clients-logo/tubacex.svg" width="200" alt="">
@@ -252,54 +241,47 @@
       </div>
     </div>
   </section>
-  <!-- /cliente logo slider -->
-  <!-- footer -->
+  <!-- /servicios -->
   <footer class="has-background-light" id="contacto">
-    <div class="container">
-      <div class="section-title has-text-grey has-text-left">
-        <h4 class="section-title has-text-grey has-text-left">Contacto</h4>
-
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <h5 class="has-text-light">Contacto</h5>
+            <div class="is-divider"></div>
+            <h5 class="has-text-light">Teléfono</h5>
+            <p>+34 678 21 16 77</p>
+            <br>
+            <h5 class="has-text-light">Email</h5>
+            <p>administracion@ganco.com</p>
+          </div>
+          <div class="column">
+            <h5 class="has-text-light">Dirección</h5>
+            <div class="is-divider"></div>
+            <p> Poligono Industrial Saratxo
+            <p>Kaldatzako Nave B16</p>
+            <p>01470 Amurrio Álava</p>
+          </div>
+          <div class="column">
+            <h5 class="has-text-light">Mapa</h5>
+            <div class="is-divider"></div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11663.990690625376!2d-3.0088184067778543!3d43.04148046635099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4faf61cddd0471%3A0x9c0f1310a1c50f63!2sGanco!5e0!3m2!1ses!2ses!4v1653379890343!5m2!1ses!2ses"
+              width="450" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
         <div>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-4-tablet">
-          <h5 class="has-text-light">Email</h5>
-          <p class="">administracion@ganco.com</p>
-        </div>
-        <div class="column is-4-tablet">
-          <h5 class="has-text-light">Teléfono</h5>
-          <p class="">+34 678 21 16 77
+          <p class="is-size-7 has-text-centered">
+            Ganco Trading | © 2022 | Coded by Lexardi
           </p>
         </div>
-        <div class="column is-4-tablet">
-          <h5 class="has-text-light">Dirección</h5>
-          <p class=""> Poligono Industrial Saratxo, Kaldatzako Nave B16
-            01470 Amurrio Álava</p>
-        </div>
       </div>
     </div>
-    <div class="section is-small has-text-centered">
-      <p class="has-text-light">
-        <script>
-          var CurrentYear = new Date().getFullYear()
-          document.write(CurrentYear)
-        </script> | Ganco Trading | Coded by<a href="lexardi.com"> Lexardi Studio</a>
-      </p>
-    </div>
   </footer>
-  <!-- /footer -->
-
-  <!-- jQuery -->
-  <script src="plugins/jQuery/jquery.min.js"></script>
-  <!-- slick slider -->
-  <script src="plugins/slick/slick.min.js"></script>
-  <!-- filter -->
-  <script src="plugins/shuffle/shuffle.min.js"></script>
-
+  <!-- footer -->
   <!-- Main Script -->
   <script src="js/script.js"></script>
-
 </body>
-
 </html>
