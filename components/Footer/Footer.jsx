@@ -94,7 +94,7 @@ function Footer() {
         </div>
       </div>
       <div className="flex justify-center py-6">
-        <p className="text-xs font-light font-mont">
+        <p className="text-xs md:text-sm font-light font-mont">
           Ganco Trading | © 2022 | Coded by Lexardi
         </p>
       </div>

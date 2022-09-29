@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ganco | Fabricación y venta de lanzs térmicas</title>
+        <title>Ganco | Fabricación y venta de lanzas térmicas</title>
         <meta
           name="Ganco Trading"
           content="Fabricación y venta de lanzas térmicas"
